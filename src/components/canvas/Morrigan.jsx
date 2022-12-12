@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Scirocco = () => {
+const Morrigan = () => {
   return (
     <div>
         <canvas id="canvas"></canvas>
@@ -8,4 +8,4 @@ const Scirocco = () => {
   )
 }
 
-export default Scirocco
+export default Morrigan
