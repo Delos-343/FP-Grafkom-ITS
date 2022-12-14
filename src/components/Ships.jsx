@@ -31,34 +31,34 @@ const Ships = () => {
         <div id="myTabContent">
             <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800 justify-center align-middle" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div className='m-auto w-full border border-gray-300 mb-5'>                
-                    <iframe src="/canvas/Morrigan.jsx" frameborder="1"></iframe>
+                    <iframe src="./canvas/Donnager.jsx" frameborder="1"></iframe>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 justify-center align-middle">
-                    This is some placeholder content the <strong className="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
+                    The <strong className="font-medium text-gray-800 dark:text-white">Donnager-class</strong> is the premier battleship of the Martian Congressional Republic Navy, a hallmark of its technological advantage over the aging United Nations of Earth.
                 </p>
             </div>
             <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
                 <div className='m-auto w-full border border-gray-300 mb-5'>                
-                    <iframe src="/canvas/Morrigan.jsx" frameborder="1"></iframe>
+                    <iframe src="./canvas/Scirocco.jsx" frameborder="1"></iframe>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 justify-center align-middle">
-                    This is some placeholder content the <strong className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
+                    The <strong className="font-medium text-gray-800 dark:text-white"> Scirocco-class </strong> is a jack-of-all-trades, master of none warship that ferries troops and supplies to the frontlines.
                 </p>
             </div>
             <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="settings" role="tabpanel" aria-labelledby="settings-tab">
                 <div className='m-auto w-full border border-gray-300 mb-5'>                
-                    <iframe src="/canvas/Morrigan.jsx" frameborder="1"></iframe>
+                    <iframe src="./canvas/Tachi.jsx" frameborder="1"></iframe>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400 justify-center align-middle">
-                    This is some placeholder content the <strong className="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
+                    Assigned to the role of torpedo bomber, picketing, and long-range patrols, the <strong className="font-medium text-gray-800 dark:text-white"> Tachi-class </strong> is an adaptable and modular platform that is future-proofed for decades to come.
                 </p>
             </div>
             <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800 justify-center align-middle" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
                 <div className='m-auto w-full border border-gray-300 mb-5'>                
-                    <iframe src="/canvas/Morrigan.jsx" frameborder="1"></iframe>
+                    <iframe src="./canvas/Morrigan.jsx" frameborder="1"></iframe>
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                    This is some placeholder content the <strong className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.
+                    Slated for mass-production, the <strong className="font-medium text-gray-800 dark:text-white"> Morrigan-class </strong> has been built in the hundreds, with dozens more on the way.
                 </p>
             </div>
         </div>

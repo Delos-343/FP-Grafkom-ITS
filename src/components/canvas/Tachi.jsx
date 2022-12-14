@@ -8,7 +8,6 @@ export default function Tachi() {
   );
 }
 
-{/*
 const Frigate = ({ ...props }) => {
   const { nodes, materials } = useSpline('https://prod.spline.design/ZTTJQmpn5DQG8ebc/scene.splinecode')
   return (
@@ -382,4 +381,3 @@ const Frigate = ({ ...props }) => {
     </>
   )
 }
-*/}

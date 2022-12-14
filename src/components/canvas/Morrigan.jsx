@@ -9,7 +9,6 @@ export default function Morrigan() {
   );
 }
 
-{/*
 const Gunboat = ({ ...props }) => {
   const { nodes, materials } = useSpline('https://prod.spline.design/DSmmUXjI6EsZXwVl/scene.splinecode')
   return (
@@ -68,4 +67,3 @@ const Gunboat = ({ ...props }) => {
     </>
   )
 }
-*/}
