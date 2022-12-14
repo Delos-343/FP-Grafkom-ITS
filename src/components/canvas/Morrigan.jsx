@@ -1,12 +1,20 @@
 import React from 'react'
 import useSpline from '@splinetool/r3f-spline'
 import { OrthographicCamera } from '@react-three/drei'
+import Spline from '@splinetool/react-spline';
 
-export default function Morrigan({ ...props }) {
+export default function Morrigan() {
+  return (
+    <Spline scene="https://prod.spline.design/DSmmUXjI6EsZXwVl/scene.splinecode" />
+  );
+}
+
+{/*
+const Gunboat = ({ ...props }) => {
   const { nodes, materials } = useSpline('https://prod.spline.design/DSmmUXjI6EsZXwVl/scene.splinecode')
   return (
     <>
-      <color attach="background" args={['#0c0c0c']} />
+      <color attach="background" args={['#000']} />
       <group {...props} dispose={null}>
         <mesh
           name="xxx_-_morrigan"
@@ -14,7 +22,7 @@ export default function Morrigan({ ...props }) {
           material={nodes['xxx_-_morrigan'].material}
           castShadow
           receiveShadow
-          scale={1.5}
+          scale={0.5}
         />
         <mesh
           name="Text"
@@ -60,3 +68,4 @@ export default function Morrigan({ ...props }) {
     </>
   )
 }
+*/}
