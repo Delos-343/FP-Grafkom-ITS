@@ -37,7 +37,7 @@ const Gunboat = ({ ...props }) => {
           material={materials['Rectangle 2 Material']}
           castShadow
           receiveShadow
-          position={[-231.95, 90, 0]}
+          position={[-231.95, 90, 450]}
           scale={0.69}
         />
         <directionalLight
