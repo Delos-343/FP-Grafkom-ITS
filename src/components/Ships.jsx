@@ -55,7 +55,7 @@ const Ships = () => {
             </div>
             <div className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800 justify-center align-middle" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
                 <div className='m-auto w-full border border-gray-300 mb-5'>                
-                    <iframe src="./canvas/Morrigan.jsx" frameborder="1"></iframe>
+                    <Gunboat />
                 </div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                     Slated for mass-production, the <strong className="font-medium text-gray-800 dark:text-white"> Morrigan-class </strong> has been built in the hundreds, with dozens more on the way.
